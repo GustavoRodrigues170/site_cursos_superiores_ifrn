@@ -1,0 +1,950 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    border: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap');
+
+/* MENU CSS */
+
+#nav {
+    background-color: #0E1818;
+}
+
+#nav a {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #00FFFF;
+    margin-right: 10px;
+}
+
+#nav li a:hover {
+    font-weight: bold;
+}
+
+#botao {
+    color: #00FFFF;
+    border-color: #00FFFF;
+}
+
+.logo {
+    
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    top: 5px;
+}
+
+.cursos-index a{
+    text-decoration: none;
+}
+
+.cursos-index h5 {
+    margin-top: 10px;
+}
+
+.cursos-index h5, p {
+    text-decoration: none;
+    color: 	black;
+}
+
+.teste1 {
+    position: absolute;
+    width: 100px;
+    left: 90px;
+    top: 2060px;
+}
+
+.teste2 {
+    position: absolute;
+    width: 100px;
+    left: 90px;
+    top: 2160px;
+}
+
+.teste3{
+    position: absolute;
+    width: 100px;
+    left: 90px;
+    top: 2260px;
+}
+
+.teste4 {
+    position: absolute;
+    width: 100px;
+    left: 90px;
+    top: 2360px;
+}
+
+.perguntas-frequentes {
+    border: 4px solid black;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    margin-top: 130px;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.perguntas-frequentes a{
+    color: white;
+    text-decoration: none;
+}
+
+.perguntas-frequentes a:hover{
+    font-weight: 600;
+}
+
+.perguntas-frequentes a{
+    color: white;
+    text-decoration: none;
+}
+
+.perguntas-frequentes:hover {
+    top:-4px;
+    box-shadow: 0px 10px 10px gray;
+}
+
+.perguntas-frequentes h3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.perguntas-frequentes p {
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: #08558B;
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    color: white;
+    font-size: 20px;
+
+}
+
+/*.container button {
+    background-color: #383838;
+    color: 	#ecded9;
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container button:hover {
+    background-color: #1B223C;
+    transition: .5s;
+}
+
+*/
+.textos-index {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.textos-index p{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+
+.titulo {
+    margin: 40px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.titulo-forum {
+    margin: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+.textos-index h3 {
+    margin-top: 30px;
+    margin: 40px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    color: black;
+}
+
+.textos-index p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+.img-curso {
+    width: 250px;
+    height: 230px;
+    border-bottom: 1px solid black;
+}
+
+.borda {
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.rodape-area {
+    margin-top: 60px;
+    padding-top: 30px;
+    color: white;
+    background-color: #182828;   
+}
+
+.rodape-area p {
+    color: white;
+}
+
+.rodape-area a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    padding-top: 10px;
+    color: white;
+    background-color: #0E1818;
+}
+
+.copyright p {
+    color: white;
+}
+
+.img-coruja {
+    width: 350px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#tds-cursos {
+    text-align: center;
+    font-weight: 600;
+}
+
+#tds-cursos a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#tds-cursos a:hover {
+    color: #08558B;
+}
+
+
+/* LOGIN E CADASTRO */
+
+#form-container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 30px;
+    text-align: center;
+    color: #323232;
+    background-color: white;
+}
+
+#form-container a, label {
+    color: #323232;
+    font-size: .8rem;
+}
+
+#form-container a:hover {
+    color: #08558B;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 1px solid #323232;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #FFF;
+    background-color: #08558B;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition: .5s;
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+
+/*  FÓRUM */ 
+
+.id-forum {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.id-forum h5 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.botao-discussao {
+    margin-top: 40px;
+    text-align: right;
+    
+}
+
+.botao-discussao button {
+    padding: 10px;
+    background-color: #08558B;
+    font-weight: bold;
+    color: rgb(182, 182, 182);
+
+}
+
+.botao-discussao a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.form-busca {
+    width: 100%;
+    height: 50px;
+    background: white;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form-busca input[type='text'] {
+    float: left;
+    width: 90%;
+    height: 100%;
+    border: none;
+    background: transparent;
+}
+
+.form-busca button {
+    float: left;
+    width: 10%;
+    height: 100%;
+    border: none;
+    background: white;
+}
+
+
+
+#topic {
+    background-color: #08558B;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+#topic p {
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#text-topic {
+    text-align: start;
+}
+
+#icon-topic {
+    text-align: end;
+}
+
+#coment-topic {
+    text-align: center;
+}
+
+
+.conteudo-topic {
+    overflow: hidden;
+}
+
+.conteudo-topic p {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.conteudo-topic a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#icon-topicos {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+.topicos-frequentes {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.topicos-frequentes h4 {
+    background-color: #323232;
+    color: white;
+    padding: 10px;
+}
+
+.forum-perguntas {
+    border: 1px solid black;
+    border-top: none;
+}
+
+
+
+/* PERFIL */ 
+
+#imagem-perfil {
+    margin-top: 10vh;
+}
+
+.titulo-perfil {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#imagem-perfil img {
+    width: 230px;
+    height: 230px;
+}
+
+
+#informacoes-pessoais {
+    margin-top: 10vh;
+    text-align: left;
+}
+
+#informacoes-pessoais h5 {
+    text-align: center;
+}
+
+#perguntas-perfil {
+    border: 1px solid black;
+    color: gray;
+    padding-top: 10px;
+}
+
+#perguntas-perfil a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-apagar-pergunta {
+    padding-top: 7px;
+}
+
+#perguntas-perfil p {
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.titulo-pergunta {
+    padding-top: 10px;
+}
+.pergunta-perfil {
+    padding-bottom: 10px;
+
+}
+
+.empty-pergunta {
+    padding-left:470px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon-perfil {
+    height: 25px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#cursos-favoritos {
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 10vh;
+    color: gray;
+    height: 150px;
+}
+
+#topico {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#topico img {
+    width: 550px;
+    height: 300px;
+}
+
+#detalhes {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#gestur {
+    margin-top: 5vh;
+}
+
+#gestur img{
+    width: 200px;
+    height: 200px;
+}
+
+#gestur h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#grade {
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+#animacao {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#animacao img {
+    
+    width: 500px;
+    height: 250px;
+}
+
+
+
+
+
+/*  CURSOS CSS */
+
+.nome-curso {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.cursos {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.cursos:hover {
+    top:-4px;
+    left: -4px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.cursos h4 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: monospace;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.cursos h5 {
+    text-transform: uppercase;
+}
+
+.cursos p {
+    text-align: justify;
+}
+
+.cursos img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+
+.cursos a {
+    text-decoration: none;
+}
+
+#favorito img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 510px;
+    bottom: 30px;
+
+}
+
+#favorito button {
+    background-color: white;
+}
+
+#sair:hover {
+    color: red;
+}
+
+textarea {
+    border: 1px solid gray;
+}
+
+.primeiro-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.imagem-curso {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imagem-curso img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.imagem-curso h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.descricao-curso {
+    margin-top: 30px;
+    width: 500px;
+    text-align: justify;
+}
+
+.descricao-curso h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+}
+
+.descricao-curso p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+}
+
+.segundo-conteudo{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.terceiro-conteudo {
+    margin: 60px;
+    margin-top: 30px;
+}
+
+.titulo-documento {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+
+
+.zoom {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);    
+}
+
+.pergunta-discussao {
+    margin-top: 10px;
+}
+
+.responder-pergunta {
+    margin-top: 30px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.responder-pergunta h5{
+    color: black;
+    text-transform: uppercase;
+}
+
+.pergunta-feita {
+    color: blue;
+    margin-top: -20px;
+}
+
+.pergunta-feita a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.titulo-discussao {
+    font-size: 18px;
+}
+
+
+.forum-vazio {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 20px
+}
+
+.forum-vazio p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+
+.forum-vazio img {
+    height: 100px;
+    width: 100px;
+}
+
+.perguntas-vazio {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.perguntas-vazio img {
+    height: 160px;
+    width: 160px;
+}
+
+.perguntas-vazio a {
+    color: white
+}
+
+.perguntas-vazio a:hover {
+    font-weight: normal;
+}
+
+.perguntas-vazio p {
+    margin: 0px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+
+.perguntas-vazio button {
+    background-color: #08558B;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+.perguntas-vazio button:hover {
+    background-color: #1B223C;
+    transition: .5s;
+}
+
+.usuario-resposta {
+    margin-top: 40px;
+}
+
+.resposta {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.titulo-resposta {
+    margin-top: 30px;
+    color: black;
+}
+
+#receita1 {
+    background-color: #08558B;
+    width: 190px;
+    margin-left: 280px;
+}
+
+#central {
+    float: right;
+}
+
+#formulario {
+    float: right;
+}
+
+.campus {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    transition: all .3s ease-in-out;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+}
+
+.campus:hover {
+    top:-4px;
+    left: -4px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.campus img {
+    border-radius: 10px;
+    width: 280px;
+    height: 160px;
+}
+
+.detalhes-campus {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.botao-campus {
+    padding-top: 70px;
+}
+
+.botao-campus button{
+    padding: 10px;
+    background-color: #08558B;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.fixed-action-btn {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+    bottom: 45px;
+    right: 24px;
+}
+
+.btn-floating.btn-large {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+}
+
+.btn-large {
+    height: 54px;
+    line-height: 54px;
+    font-size: 15px;
+    padding: 0 28px;
+}
+
+.btn-floating {
+    display: inline-block;
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn-floating.btn-large i {
+    line-height: 52px;
+}
+
+.btn-floating i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.6rem;
+    line-height: 40px;
+}
